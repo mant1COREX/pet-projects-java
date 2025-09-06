@@ -48,6 +48,10 @@ CREATE TABLE Book(
 
 **Books**
 - `GET /books` — список книг.
+- - Опциональные query параметры `/books?page=1&books_per_page=3` или `/books?page=1&books_per_page=3&sort_by_year=true`:
+    - `page` — номер страницы.
+    - `books_per_page` — сколько книг на страницу.
+    - `sort_by_year` — если true — сортировка по году.
 - `GET /books/new` — форма создания книги.
 - `POST /books` — создать книгу.
 - `GET /books/{id}` — страница книги: поля + владелец (или сообщение «свободна»). Если книга свободна — на странице select со всеми людьми, кнопка «Назначить».
@@ -56,9 +60,11 @@ CREATE TABLE Book(
 - `GET /books/{id}/edit` — редактирование.
 - `PATCH /books/{id}` — обновить.
 - `DELETE /books/{id}` — удалить.
+- `GET /books/search` — страница поиска (начальные буквы названия).
 
 ![books](https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/books.gif)
 ![people](https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/people.gif)
+![optional](https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/optional.gif)
 
 
 ------
