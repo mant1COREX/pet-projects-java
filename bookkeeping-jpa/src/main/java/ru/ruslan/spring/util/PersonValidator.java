@@ -23,6 +23,6 @@ public class PersonValidator implements Validator {
         Person person = (Person) target;
 
         if (personService.findOnePerson(person.getFullName()).isPresent())
-            errors.rejectValue("name", "", "Это ФИО уже существует");
+            errors.rejectValue("fullName", "", "Это ФИО уже существует");
     }
 }
