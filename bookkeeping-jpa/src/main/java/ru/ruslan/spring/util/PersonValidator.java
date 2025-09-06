@@ -5,6 +5,7 @@ import org.springframework.validation.Validator;
 import ru.ruslan.spring.models.Person;
 import ru.ruslan.spring.services.PersonService;
 
+@Component
 public class PersonValidator implements Validator {
     private final PersonService personService;
 
