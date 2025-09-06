@@ -58,6 +58,10 @@ CREATE TABLE Book(
 - `DELETE /books/{id}` — удалить.
 
 
+<div id="header" align="left">
+  <img src="https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/books.gif" width="700"/>
+</div>
+
 ------
 
 Проект [Sensors REST API](https://github.com/mant1COREX/pet-projects-java/tree/master/SensorsService),
