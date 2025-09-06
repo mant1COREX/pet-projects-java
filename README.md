@@ -57,10 +57,8 @@ CREATE TABLE Book(
 - `PATCH /books/{id}` — обновить.
 - `DELETE /books/{id}` — удалить.
 
+![books](https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/books.gif)
 
-<div id="header" align="left">
-  <img src="https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/books.gif" width="700"/>
-</div>
 
 ------
 
