@@ -58,6 +58,7 @@ CREATE TABLE Book(
 - `DELETE /books/{id}` — удалить.
 
 ![books](https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/books.gif)
+![people](https://raw.githubusercontent.com/mant1COREX/pet-projects-java/refs/heads/master/people.gif)
 
 
 ------
